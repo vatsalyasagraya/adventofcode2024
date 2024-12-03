@@ -38,8 +38,6 @@ public class Dec1Runner {
 		      System.out.println("An error occurred.");
 		      e.printStackTrace();
 		    }
-		
-		
 
 		Dec1 first = new Dec1(list1,list2);
 		

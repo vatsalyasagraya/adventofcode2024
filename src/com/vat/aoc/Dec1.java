@@ -42,7 +42,7 @@ public class Dec1 {
 	        for(int j = 0; j<list2.size();j++){
 	            if(list1.get(i).equals(list2.get(j))) count++;
 	        }
-//	        System.out.println(count);
+
 	        ArrayList<Integer> a = new ArrayList<Integer>();
 	        a.add(list1.get(i));
 	        a.add(count);
@@ -50,13 +50,9 @@ public class Dec1 {
 	    }
 		
 		for(int i=0; i<1000; i++) {
-//			System.out.println(nums.get(i).get(0)+ " " + nums.get(i).get(1));
 			ans += nums.get(i).get(0) * nums.get(i).get(1);
 		}
-		
 		return ans;
-		 
-		
 	}
 
 }
