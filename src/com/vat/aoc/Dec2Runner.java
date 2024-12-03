@@ -40,12 +40,10 @@ public class Dec2Runner {
 		      e.printStackTrace();
 		    }
 		
+		Dec2 solve = new Dec2(nums);
 		
-//
-		Dec2 first = new Dec2(nums);
-		
-		long ans1 = first.ans1();
-		long ans2 = first.ans2();
+		long ans1 = solve.ans1();
+		long ans2 = solve.ans2();
 		
 		System.out.println("Ans of Puzzle 1 is: " + ans1 + " and Puzzle 2 is " +ans2);
 		

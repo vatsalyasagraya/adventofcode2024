@@ -27,7 +27,9 @@ public class Dec2 {
 			
 		}
 		return (inc || dec);
-}
+    }
+    
+    //	Puzzle Day2 - First
     
 	public int ans1() {
 		int ans = 0;
@@ -41,6 +43,9 @@ public class Dec2 {
 		return ans;
 	}
 	
+	
+	//	Puzzle Day2 - Second
+	
 	public int ans2() {
 		int ans = 0;
 		for(int i=0;i<nums.size();i++) {
@@ -50,7 +55,7 @@ public class Dec2 {
 	        }
 	        for (int j = 0; j < nums.get(i).size(); j++) {
 	            List<Integer> modifiedArr = new ArrayList<>(nums.get(i));
-	            
+	   
 	            modifiedArr.remove(j); 
 	            if (helper(modifiedArr)) {
 	                check = true;
@@ -59,7 +64,6 @@ public class Dec2 {
 			if(check)
 				ans++;	
 		}
-		
 		return ans;
 	}
 
